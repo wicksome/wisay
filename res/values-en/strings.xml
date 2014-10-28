@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">wisay</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_tab_random">TabRandomActivity</string>
+    <!-- setting group -->
+    <string name="setting_group_help">Wisay</string>
+    <string name="setting_group_application">Wisay Setting</string>
+    <string name="setting_group_homewidget">Widget Setting</string>
+    <string name="setting_group_developer">Developer</string>
+
+    <!-- setting group_wisay -->
+    <string name="setting_wisay">Wisay?</string>
+    <string name="setting_wisay_info">Wisay information</string>
+    <string name="setting_wisay_using">Help.</string>
+    <string name="setting_wisay_using_summary">Using the widget.</string>
+    <string name="setting_wisay_assess">Assess</string>
+
+    <!-- setting group_application -->
+    <string name="setting_lang">Language</string>
+    <string name="setting_lang_summary">You need to restart the program.</string>
+
+    <!-- setting group_homewidget -->
+    <string name="setting_widget_lang">Widget language</string>
+    <string name="setting_widget_textcolor">Text Color</string>
+    <string name="setting_widget_bg">Widget Background</string>
+    <string name="setting_widget_bg_summary">Change the background.</string>
+    <string name="setting_widget_transparency">Widget Background Transparency</string>
+    <string name="setting_widget_transparency_summary">Change the background transparency.</string>
+
+    <!-- setting group_developer -->
+    <string name="setting_dev_contact">Contact us</string>
+    <string name="setting_dev_blog">Blog</string>
+
+</resources>

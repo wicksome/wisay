@@ -1,0 +1,23 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppBaseTheme" parent="android:Theme.Light"></style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:fastScrollThumbDrawable">@drawable/fast_thumb</item>
+        <item name="android:windowTitleSize">45dp</item>
+        <item name="android:windowTitleBackgroundStyle">@style/WisayTitleBackground</item>
+    </style>
+
+    <style name="WisayTitle" parent="android:Theme.Light">
+        <item name="android:fastScrollThumbDrawable">@drawable/fast_thumb</item>
+        
+        <item name="android:windowTitleSize">45dp</item>
+        <item name="android:windowTitleBackgroundStyle">@style/WisayTitleBackground</item>
+    </style>
+
+    <style name="WisayTitleBackground">
+        <item name="android:background">#ff702C</item>
+    </style>
+
+</resources>

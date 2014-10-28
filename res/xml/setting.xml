@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="setting" >
+
+    <PreferenceCategory android:title="@string/setting_group_application" >
+        <Preference
+            android:enabled="true"
+            android:key="setting_activity_language"
+            android:selectable="true"
+            android:summary="@string/setting_lang_summary"
+            android:title="@string/setting_lang" />
+        <Preference
+            android:enabled="true"
+            android:key="setting_activity_app_info"
+            android:selectable="true"
+            android:title="@string/setting_wisay_info" />
+        <Preference
+            android:enabled="true"
+            android:key="setting_activity_app_assess"
+            android:selectable="true"
+            android:title="@string/setting_wisay_assess" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/setting_group_developer" >
+        <Preference
+            android:enabled="true"
+            android:key="setting_activity_blog"
+            android:selectable="true"
+            android:title="@string/setting_dev_blog" />
+        <Preference
+            android:enabled="true"
+            android:key="setting_activity_contact"
+            android:selectable="true"
+            android:title="@string/setting_dev_contact" />
+    </PreferenceCategory>
+    
+
+</PreferenceScreen>
